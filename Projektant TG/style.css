@@ -1,0 +1,98 @@
+:root{
+    --red:
+}
+header{
+    background-image: linear-gradient(199deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.84) 100%),
+    url(img/baner.png);
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 850px;
+    position:relative;
+
+}
+.about{
+    padding-bottom: 10vh;
+}
+.projects{
+    background-image: linear-gradient( rgb(201, 199, 199), rgb(245, 245, 245));
+    padding-bottom: 10vh;
+}
+.nav-link{
+    color: white;
+    
+}
+.last{
+    background-color: #FFAC12;
+    color: black;
+    width: 13rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px 10px 50px 10px ;
+}
+.top-head{
+    font-size: 9vh;
+    color: white;
+    font-weight: 700;
+    letter-spacing: -2.01px;
+}
+.sub-head{
+    line-height: 28px;
+    letter-spacing: -0.503px;
+    opacity: 0.6000000238418579;
+    width: 19rem;
+}
+.boxw{
+    background-color: white;
+    width: 70%;
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    
+}
+.boxw p{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.503px;
+    padding-left: 2rem;
+    padding-top: 2.5vh;
+}
+hr{
+    width: 169px;
+    height: 4px;
+    border-radius: 2px;
+    background-image: linear-gradient(90deg, #FFAC12 0%, #000 100%);
+}
+.butt{
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 5vh;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0px 18px 0px 0px;
+    line-height: 5vh;
+}
+.sub-about{
+    line-height: 28px;
+    letter-spacing: -0.503px;
+    opacity: 0.6000000238418579;
+    width: 70%;
+}
+.card{
+    box-shadow: 0px 32px 34px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 1.5vw;
+    width: 336px;
+    height: 418px;
+}
+.cardinfo{
+    border-top: 1px solid #E4E4E4;;
+    padding-top: 1vh;
+}
+.card{
+    margin-top: 4vh;
+}
+.refference{
+    background-image: linear-gradient(226deg, #271A00 0%, rgba(0, 0, 0, 0.98) 100%);
+    height: 674px;
+}
