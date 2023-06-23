@@ -1,6 +1,9 @@
 :root{
     --red:
 }
+*{
+    font-family: "DM Sans";
+}
 header{
     background-image: linear-gradient(199deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.84) 100%),
     url(img/baner.png);
@@ -15,7 +18,7 @@ header{
     padding-bottom: 10vh;
 }
 .projects{
-    background-image: linear-gradient( rgb(201, 199, 199), rgb(245, 245, 245));
+    background-image: linear-gradient( rgb(224, 224, 224), rgb(245, 245, 245));
     padding-bottom: 10vh;
 }
 .nav-link{
@@ -94,5 +97,45 @@ hr{
 }
 .refference{
     background-image: linear-gradient(226deg, #271A00 0%, rgba(0, 0, 0, 0.98) 100%);
-    height: 674px;
+    color: #E4E4E4;
+    padding-bottom: 20vh;
+}
+.butty{
+    background-color: #FFAC12;
+    color: black;
+    width: 40%;
+    height: 5vh;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0px 18px 0px 0px;
+    line-height: 5vh;
+}
+.reviews{
+    width: 100%;
+    padding-bottom: 20vh;
+    background-color: #E4E4E4;
+}
+.review{
+    font-weight: 700;
+    letter-spacing: -0.603px;
+    font-size: 1rem;
+    width: 60%;
+}
+.review-author{
+    background-color: #000;
+    color: #E4E4E4;
+    width: 60%;
+    height: 10vh;
+    padding: 1vh;
+}
+footer{
+    background: linear-gradient(226deg, #271A00 0%, rgba(0, 0, 0, 0.98) 44.79%);
+    width: 100%;
+    color: white;
+}
+.foothr{
+    opacity: 0.10000000149011612;
+    background: #FFF;
+    width: 100%;
+    margin-top: 5vh;
 }
