@@ -21,22 +21,22 @@ header{
 }
 .two{
     width: 100%;
-    height: 742px;
+    padding-bottom: 15vh;
     background-color: var(--primary);
 }
 .slang{
     background-color: var(--white);
     width: 100%;
-    height: 584px;
+    padding-bottom: 15vh;
 }
 .platform{
-    height: 2209px;
+    padding-bottom: 15vh;
     width: 100%;
     background-color: var(--grey4);
 }
 .deal{
     background-color: var(--black);
-    height: 1128px;
+    padding-bottom: 15vh;
     width: 100%;
 }
 .join{
@@ -71,7 +71,7 @@ header{
     color: var(--white);
 }
 .heading{
-    font-size: 72px;
+    font-size: 4rem;
 }
 .meet{
     background-color: var(--green2);
@@ -111,4 +111,38 @@ header{
     height: 30px;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+}
+@media (max-width: 550px) {
+  .stack{
+    display: none;
+  }
+}
+.blackbtn{
+    background-color: var(--black);
+    width: 30%;
+    color: var(--white);
+    font-weight: bold;
+    border-radius:28px;
+	border:1px solid #000000;
+    padding: 1vh;
+}
+.box{
+    border-radius: 16px;
+    background: #FAFAFA;
+    height: 20rem;
+    width: 22.5rem;
+    color: var(--black);
+    padding: 2.5rem;
+}
+.green{
+    background: var(--green2);
+}
+.sub{
+    color: var(--green2);
+}
+.black{
+    color: var(--black);
+}
+.black:hover{
+    color: var(--grey1);
 }
